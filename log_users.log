@@ -1,0 +1,17 @@
+Fichero de logs
+FECHA 		 HORA 		 RESULTADO
+2025-10-09	10:57:34	[V] El user user1 ha sido creado con éxito
+2025-10-09	10:57:35	[V] El user user2 ha sido creado con éxito
+2025-10-09	10:57:36	[V] El user user3 ha sido creado con éxito
+2025-10-09	11:35:41	[X] Ha habido un error en la creación del usuario.
+2025-10-09	11:35:42	[X] Ha habido un error en la creación del usuario.
+2025-10-09	11:35:43	[X] Ha habido un error en la creación del usuario.
+2025-10-09	11:35:58	[V] El user user1 ha sido creado con éxito
+2025-10-09	11:35:59	[V] El user user2 ha sido creado con éxito
+2025-10-09	11:36:00	[V] El user user3 ha sido creado con éxito
+2025-10-09	11:39:26	[V] El user user1 ha sido creado con éxito
+2025-10-09	11:39:27	[V] El user user2 ha sido creado con éxito
+2025-10-09	11:39:28	[V] El user user3 ha sido creado con éxito
+2025-10-09	11:43:05	[V] El user test1 ha sido creado con éxito
+2025-10-09	11:43:06	[V] El user test2 ha sido creado con éxito
+2025-10-09	11:43:07	[V] El user test3 ha sido creado con éxito

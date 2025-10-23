@@ -16,14 +16,16 @@ function printuser {
 
 echo "--------|---------------|------"
 echo "--------|---------------|------" >> usuarios.txt
-for nuser in `cat /etc/passwd | grep -w /bin/bash`; do
-	usuario=`cat /etc/passwd | grep -w $nuser | cut -f1 -d":"`
-	uid=`cat /etc/passwd | grep -w $nuser | cut -f3 -d":"`
-	id=0
-	if [ $uid -lt 1000 ]; then
+
+################ Mostrar usuarios y guardarlos ################
+for nuser in `cat /etc/passwd | grep -w /bin/bash`; do # por cada usuario que use /bin/bash hacer:
+	usuario=`cat /etc/passwd | grep -w $nuser | cut -f1 -d":"` # Almacena el nombre del usuario
+	uid=`cat /etc/passwd | grep -w $nuser | cut -f3 -d":"` # Almacena UID del user
+	id=0 # Contador
+	if [ $uid -lt 1000 ]; then # SI el UID es menor que 1000 continuar bucle
 		continue
 	fi
-	i=`expr $i + 1`
+	i=`expr $i + 1` # Sumar al contador
 	printuser
 	printuser >> usuarios.txt
 done
